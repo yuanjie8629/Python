@@ -360,6 +360,7 @@
   * Branch And Bound
     * [Branch And Bound](https://github.com/TheAlgorithms/Python/blob/master/knapsack/branch_and_bound/branch_and_bound.py)
     * [Item](https://github.com/TheAlgorithms/Python/blob/master/knapsack/branch_and_bound/item.py)
+  * [Bruteforce Knapsack](https://github.com/TheAlgorithms/Python/blob/master/knapsack/bruteforce_knapsack.py)
   * [Greedy Knapsack](https://github.com/TheAlgorithms/Python/blob/master/knapsack/greedy_knapsack.py)
   * [Knapsack](https://github.com/TheAlgorithms/Python/blob/master/knapsack/knapsack.py)
   * Tests
