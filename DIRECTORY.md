@@ -837,6 +837,7 @@
   * [Binary Tree Traversal](https://github.com/TheAlgorithms/Python/blob/master/searches/binary_tree_traversal.py)
   * [Double Linear Search](https://github.com/TheAlgorithms/Python/blob/master/searches/double_linear_search.py)
   * [Double Linear Search Recursion](https://github.com/TheAlgorithms/Python/blob/master/searches/double_linear_search_recursion.py)
+  * [Exponential Search](https://github.com/TheAlgorithms/Python/blob/master/searches/exponential%20search.py)
   * [Fibonacci Search](https://github.com/TheAlgorithms/Python/blob/master/searches/fibonacci_search.py)
   * [Hill Climbing](https://github.com/TheAlgorithms/Python/blob/master/searches/hill_climbing.py)
   * [Interpolation Search](https://github.com/TheAlgorithms/Python/blob/master/searches/interpolation_search.py)
