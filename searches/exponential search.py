@@ -18,7 +18,8 @@ def binarySearch(numList, left, right, target):
         return binarySearch(numList, left, mid - 1, target)
     else:
         return binarySearch(numList, mid + 1, right, target)
- 
+
+
 def exponentialSearch(numList, target):
 
     """
@@ -37,18 +38,20 @@ def exponentialSearch(numList, target):
     """
 
     index = 1
-    #find range of number where target may be present
+    # find range of number where target may be present
     while index < len(numList) and numList[index] < target:
         index *= 2
-    #binary search using a range of number with the target
+    # binary search using a range of number with the target
     return binarySearch(numList, index // 2, min(index, len(numList)), target)
- 
+
+
 # Exponential search algorithm
-if __name__ == '__main__':
+if __name__ == "__main__":
     import doctest
+
     doctest.testmod()
- 
-    userInput = input ("Enter numbers seperated by comma:\n").strip()
+
+    userInput = input("Enter numbers separated by comma:\n").strip()
     numList = sorted(int(item) for item in userInput.split(","))
     target = int(input("Enter a number to be searched in the number list:\n"))
     index = exponentialSearch(numList, target)
