@@ -25,8 +25,8 @@ Calculate the maximum rating and total weight that the knapsack can take.
 
 class BranchAndBound:
     """
-    >>> item_list = [Item('Ant Repellent',1.0,2.0), Item('Blanket',4.0,3.0),
-    Item('Brownies',3.0,10.0), Item('Frisbee',1.0,6.0), Item('Salad',5.0,4.0),
+    >>> item_list = [Item('Ant Repellent',1.0,2.0), Item('Blanket',4.0,3.0),\
+    Item('Brownies',3.0,10.0), Item('Frisbee',1.0,6.0), Item('Salad',5.0,4.0),\
     Item('Watermelon',10.0,10.0)]
 
     Valid Test 1
